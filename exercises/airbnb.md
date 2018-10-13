@@ -12,36 +12,42 @@ Write out the relationships using has_many, belongs_to and has_many_through. Cre
 
 #### Listing
 - #guests
-  - returns an array of all guests who have stayed at a listing
+  - returns an array of all guests who have stayed at a listing - PASSED
 - #trips
-  - returns an array of all trips at a listing
+  - returns an array of all trips at a listing - PASSED
 - #trip_count
-  - returns the number of trips that have been taken to that listing
+  - returns the number of trips that have been taken to that listing - PASSED
 - .all
-  - returns an array of all listings
+  - returns an array of all listings - PASSED
 - .find_all_by_city(city)
-  - takes an argument of a city name (as a string) and returns all the listings for that city
+  - takes an argument of a city name (as a string) and returns all the listings for that city - PASSED
+
 - .most_popular
-  - finds the listing that has had the most trips
+  - finds the listing that has had the most trips - PASSED
 
 #### Guest
 - #listings
-  - returns an array of all listings a guest has stayed at
-- #trips
-  - returns an array of all trips a guest has made
-- #trip_count
-  - returns the number of trips a guest has taken
-- .all
-  - returns an array of all guests
-- .pro_traveller
-  - returns an array of all guests who have made over 1 trip
-- .find_all_by_name(name)
-  - takes an argument of a name (as a string), returns the all guests with that name
+  - returns an array of all listings a guest has stayed at PASSED
 
+- #trips
+  - returns an array of all trips a guest has made PASSED
+
+- #trip_count
+  - returns the number of trips a guest has taken PASSED
+
+- .all
+  - returns an array of all guests - PASSED
+
+- .pro_traveller
+  - returns an array of all guests who have made over 1 trip - PASSED
+
+- .find_all_by_name(name)
+  - takes an argument of a name (as a string), returns the all guests with that name - PASSED
+ 
 #### Trip
 - #listing
-  - returns the listing object for the trip
+  - returns the listing object for the trip - PASSED
 - #guest
-  - returns the guest object for the trip
+  - returns the guest object for the trip - PASSED
 - .all
-  - returns an array of all trips
+  - returns an array of all trips - PASSED
